@@ -4,12 +4,15 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Cloud-Based-Farm-Management-Assistant-System</title>
+      <title>APP GUICHET</title>
    <!-- Font Awesome -->
    <link rel="stylesheet" href="../asset/fontawesome/css/all.min.css">
-   <link rel="stylesheet" href="../asset/css/adminlte.min.css">
+
+   <!-- adminlte -->
+   <!-- <link rel="stylesheet" href="../asset/css/adminlte.min.css"> -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
    <link rel="stylesheet" href="../asset/css/style.css">
-   <link rel="stylesheet" href="../asset/tables/datatables-bs4/css/dataTables.bootstrap4.min.css">
+   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
    <style type="text/css">
       td p {
          margin: -0.3rem;
@@ -37,6 +40,8 @@
 
 <body class="hold-transition sidebar-mini layout-fixed">
    <div class="wrapper">
+
+      <!-- navbar -->
       <nav class="main-header navbar navbar-expand navbar-light" style="background-color: rgb(109,156,69)">
          <!-- Left navbar links -->
          <ul class="navbar-nav">
@@ -62,11 +67,18 @@
             </li>
          </ul>
       </nav>
+
+      <!-- Side bar -->
       <aside class="main-sidebar sidebar-light-primary">
             <!-- Brand Logo -->
-            <a href="index.html" class="brand-link">
-         <img src="../asset/img/logo.png" alt="Logo" width="200" style="margin-top: -75px;margin-bottom: -75px">
-         </a>
+            <!-- <a href="index.html" class="brand-link">
+               <img src="../asset/img/logo.png" alt="Logo" width="200" style="margin-top: -75px;margin-bottom: -75px">
+            </a> -->
+            <a href="index.html" class="brand-link text-center">
+               APP GUICHET
+            </a>
+
+         <!-- sidebar -->
          <div class="sidebar">
             <nav class="mt-2">
                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
@@ -75,7 +87,7 @@
                      <a href="index.html" class="nav-link">
                         <img src="../asset/img/dashboard.png" width="30">
                         <p style="color: rgb(109,156,69)">
-                           Dashboard
+                           Table de bord
                         </p>
                      </a>
                   </li>
@@ -139,19 +151,17 @@
             </nav>
          </div>
       </aside>
+
+      <!-- body -->
+      
       <div class="content-wrapper">
          <div class="content-header">
             <div class="container-fluid">
-               <div class="row mb-2">
-                  <div class="col-sm-6">
-                     <h1 class="m-0" style="color:rgb(107,155,64);"><img src="../asset/img/dashboard.png" width="40"> Dashboard</h1>
-                  </div>
-                  <div class="col-sm-6">
-                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Dashboard</li>
-                     </ol>
-                  </div>
+               <div class="row">
+                  <ol class="breadcrumb float-sm-left">
+                     <li class="breadcrumb-item"><a href="#">Home</a></li>
+                     <li class="breadcrumb-item active">Dashboard</li>
+                  </ol>
                </div>
             </div>
          </div>
@@ -220,9 +230,15 @@
          </section>
       </div>
    </div>
+
+
    <!-- jQuery -->
    <script src="../asset/jquery/jquery.min.js"></script>
-   <script src="../asset/js/adminlte.js"></script>
+
+   <!-- <script src="../asset/js/adminlte.js"></script> -->
+   <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
+
+   <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
 </body>
 
 </html>
